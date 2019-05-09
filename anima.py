@@ -17,7 +17,7 @@ def plot_for_offset(i):
     x = np.arange(101)/101
     s = Z[i]
 
-    fig, ax = plt.subplots(figsize=(5,5))
+    fig, ax = plt.subplots(figsize=(8,8))
     ax.plot(x, s)
     ax.grid()
     ax.set(xlabel='X', ylabel='U',
